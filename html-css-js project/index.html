@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Simple Blog</title>
+</head>
+
+<body class="light-theme">
+    <div class="main">
+
+        <header>
+            <nav>
+                <div class="btn-group">
+                    <button class="nav-menu-btn">
+                        <ion-icon name="menu-outline"></ion-icon>
+                    </button>
+                    <button class="theme-btn theme-btn-mobile light">
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                    </button>
+                </div>
+                <div class="flex-wrapper">
+                    <button class="theme-btn theme-btn-desktop light">
+                        <ion-icon name="sunny" class="sun"></ion-icon>
+                        <ion-icon name="moon" class="moon"></ion-icon>
+                    </button>
+
+                    <ul class="desktop-nav">
+                        <li><a class="nav-link" href="#">خانه</a></li>
+                        <li><a class="nav-link" href="#">درباره من</a></li>
+                        <li><a class="nav-link" href="#">ارتباط با‌من</a></li>
+                    </ul>
+
+                </div>
+                <div class="mobile-nav">
+                    <button class="nav-close-btn">
+                        <ion-icon name="close-outline"></ion-icon>
+                    </button>
+                    <div class="mobile-wrapper">
+                        <p class="nav-title">منوی اصلی</p>
+                        <ul>
+                            <li><a class="nav-link" href="#">خانه</a></li>
+                            <li><a class="nav-link" href="#">درباره من</a></li>
+                            <li><a class="nav-link" href="#">ارتباط با‌من</a></li>
+                        </ul>
+                    </div>
+                    <div class="mobile-wrapper">
+                        <p class="nav-title">موضوعات</p>
+                        <ul>
+                            <li><a class="nav-link" href="#">پایگاه داده</a></li>
+                            <li><a class="nav-link" href="#">دسترسی</a></li>
+                            <li><a class="nav-link" href="#">عملکرد وب</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="">
+                    <img src="./assets//images/logo-light.svg" alt="DevBlog logo" class="logo-light">
+                    <img src="./assets//images/logo-dark.svg" alt="DevBlog logo" class="logo-dark">
+                </a>
+            </nav>
+        </header>
+
+        <div class="landing">
+            <div class="landing__container">
+                <div class="left">
+                    <h1>سلام, من <span>جولیا واکر</span> هستم.<br>توسعه دهنده وب</h1>
+                    <h2>متخصص در ay11 و core web vitals</h2>
+                    <div class="btn-group">
+                        <a href="#">درباره من</a>
+                        <a href="#">ارتباط با‌من</a>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="pattern"></div>
+                    <div class="img-box">
+                        <img src="./assets//images/hero.png" alt="Julia walker">
+                        <div class="shape shape1"></div>
+                        <div class="shape shape2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-aside">
+            <aside>
+                <div class="topics">
+                    <h2>موضوعات</h2>
+                    <a href="#">
+                        <div class="icon-box">
+                            <ion-icon name="server-outline"></ion-icon>
+                        </div>
+                        پایگاه داده
+                    </a>
+                    <a href="#">
+                        <div class="icon-box">
+                            <ion-icon name="accessibility-outline"></ion-icon>
+                        </div>
+                        دسترسی
+                    </a>
+                    <a href="#">
+                        <div class="icon-box">
+                            <ion-icon name="rocket-outline"></ion-icon>
+                        </div>
+                        عملکرد وب
+                    </a>
+                </div>
+                <div class="tags">
+                    <h2>تگ ها</h2>
+                    <div class="tag-box">
+                        <button class="hashtag">#مونگو-دی-بی</button>
+                        <button class="hashtag">#نود-جی-اس</button>
+                        <button class="hashtag">#a11y</button>
+                        <button class="hashtag">#تحرک</button>
+                        <button class="hashtag">#مشارکت</button>
+                        <button class="hashtag">#عملکرد</button>
+                        <button class="hashtag">#بهینه سازی</button>
+                        <button class="hashtag">#webperf</button>
+                    </div>
+                </div>
+                <div class="contact">
+                    <h2>ارتباط</h2>
+                    <div class="contact-box">
+                        <p>آیا می خواهید در مورد اینکه چگونه می توانم به شرکت شما برای غلبه بر مشکلات کمک کنم بیشتر
+                            بیاموزید؟ اجازه بدهید با هم صحبت کنیم.
+                        </p>
+                        <div class="socials">
+                            <ul>
+                                <li>
+                                    <a href="#" class="facebook">
+                                        <ion-icon name="logo-facebook"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="twitter">
+                                        <ion-icon name="logo-twitter"></ion-icon>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="discord">
+                                        <ion-icon name="logo-discord"></ion-icon>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="newsletter">
+                    <h2>خبرنامه</h2>
+                    <div class="newsletter-box">
+                        <p>در خبرنامه ما عضو شوید تا جزو اولین کسانی باشید که از آخرین به روز رسانی ها مطلع می شوند.
+                        </p>
+                        <input type="email" placeholder="آدرس ایمیل">
+                        <button>عضو شوید</button>
+                    </div>
+                </div>
+            </aside>
+
+            <div class="blogs">
+                <h2>جدید‌ترین مقالات</h2>
+                <div class="blog-group">
+                    <div class="blog-card">
+                        <img class="banner" src="./assets/images/blog-1.png" alt="">
+                        <div class="blog-texts">
+                            <a href="#" class="tag-btn">پایگاه داده</a>
+                            <h3>
+                                <a href="#">ساخت میکروسرویس با Dropwizard، MongoDB و Docker</a>
+                            </h3>
+                            <p>این پایگاه داده NoSQL مبتنی بر اسناد (توسط اسنادی مانند JSON) برخی از ویژگی های پایگاه
+                                داده های رابطه ای را ترکیب می کند، استفاده آسان و چند پلتفرمی بهترین گزینه برای افزایش
+                                مقیاس و تحمل خطا، متعادل سازی بار، کاهش نقشه و غیره است. </p>
+                            <div class="author-box">
+                                <div class="author-frame">
+                                    <img src="./assets/images/author.png" alt="">
+                                </div>
+                                <div class="information">
+                                    <a href="#">جولیا واکر</a>
+                                    <p>
+                                        17 ژانویه 2024
+                                        <span class="separator"></span>
+                                        <ion-icon class="icon" name="time-outline"></ion-icon>
+                                        3 دقیقه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img class="banner" src="./assets/images/blog-2.png" alt="">
+                        <div class="blog-texts">
+                            <a href="#" class="tag-btn">پایگاه داده</a>
+                            <h3>
+                                <a href="#">بارگذاری سریع صفحه وب در تلفن ویژگی 20 دلاری</a>
+                            </h3>
+                            <p>این پایگاه داده NoSQL مبتنی بر اسناد (توسط اسنادی مانند JSON) برخی از ویژگی های پایگاه
+                                داده های رابطه ای را ترکیب می کند، استفاده آسان و چند پلتفرمی بهترین گزینه برای افزایش
+                                مقیاس و تحمل خطا، متعادل سازی بار، کاهش نقشه و غیره است. </p>
+                            <div class="author-box">
+                                <div class="author-frame">
+                                    <img src="./assets/images/author.png" alt="">
+                                </div>
+                                <div class="information">
+                                    <a href="#">جولیا واکر</a>
+                                    <p>
+                                        17 ژانویه 2024
+                                        <span class="separator"></span>
+                                        <ion-icon class="icon" name="time-outline"></ion-icon>
+                                        2 دقیقه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img class="banner" src="./assets/images/blog-3.png" alt="">
+                        <div class="blog-texts">
+                            <a href="#" class="tag-btn">عملکرد وب</a>
+                            <h3>
+                                <a href="#">نکات دسترسی برای توسعه دهندگان وب</a>
+                            </h3>
+                            <p>این پایگاه داده NoSQL مبتنی بر اسناد (توسط اسنادی مانند JSON) برخی از ویژگی های پایگاه
+                                داده های رابطه ای را ترکیب می کند، استفاده آسان و چند پلتفرمی بهترین گزینه برای افزایش
+                                مقیاس و تحمل خطا، متعادل سازی بار، کاهش نقشه و غیره است. </p>
+                            <div class="author-box">
+                                <div class="author-frame">
+                                    <img src="./assets/images/author.png" alt="">
+                                </div>
+                                <div class="information">
+                                    <a href="#">جولیا واکر</a>
+                                    <p>
+                                        12 دسامبر 2024
+                                        <span class="separator"></span>
+                                        <ion-icon class="icon" name="time-outline"></ion-icon>
+                                        3 دقیقه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img class="banner" src="./assets/images/blog-4.png" alt="">
+                        <div class="blog-texts">
+                            <a href="#" class="tag-btn">دسترسی</a>
+                            <h3>
+                                <a href="#">ایمن سازی پویا پایگاه های داده با استفاده از Hashicorp Vault</a>
+                            </h3>
+                            <p>این پایگاه داده NoSQL مبتنی بر اسناد (توسط اسنادی مانند JSON) برخی از ویژگی های پایگاه
+                                داده های رابطه ای را ترکیب می کند، استفاده آسان و چند پلتفرمی بهترین گزینه برای افزایش
+                                مقیاس و تحمل خطا، متعادل سازی بار، کاهش نقشه و غیره است. </p>
+                            <div class="author-box">
+                                <div class="author-frame">
+                                    <img src="./assets/images/author.png" alt="">
+                                </div>
+                                <div class="information">
+                                    <a href="#">جولیا واکر</a>
+                                    <p>
+                                        23 نوامبر 2024
+                                        <span class="separator"></span>
+                                        <ion-icon class="icon" name="time-outline"></ion-icon>
+                                        7 دقیقه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img class="banner" src="./assets/images/blog-5.png" alt="">
+                        <div class="blog-texts">
+                            <a href="#" class="tag-btn">پایگاه داده</a>
+                            <h3>
+                                <a href="#">بارگیری تطبیقی ​​- بهبود عملکرد وب در دستگاه های ارزان قیمت</a>
+                            </h3>
+                            <p>این پایگاه داده NoSQL مبتنی بر اسناد (توسط اسنادی مانند JSON) برخی از ویژگی های پایگاه
+                                داده های رابطه ای را ترکیب می کند، استفاده آسان و چند پلتفرمی بهترین گزینه برای افزایش
+                                مقیاس و تحمل خطا، متعادل سازی بار، کاهش نقشه و غیره است. </p>
+                            <div class="author-box">
+                                <div class="author-frame">
+                                    <img src="./assets/images/author.png" alt="">
+                                </div>
+                                <div class="information">
+                                    <a href="#">جولیا واکر</a>
+                                    <p>
+                                        16 نوامبر 2024
+                                        <span class="separator"></span>
+                                        <ion-icon class="icon" name="time-outline"></ion-icon>
+                                        9 دقیقه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img class="banner" src="./assets/images/blog-6.png" alt="">
+                        <div class="blog-texts">
+                            <a href="#" class="tag-btn">عملکرد وب</a>
+                            <h3>
+                                <a href="#">فقط برای خودت توسعه نده - چک لیست توسعه دهندگان برای دسترسی</a>
+                            </h3>
+                            <p>این پایگاه داده NoSQL مبتنی بر اسناد (توسط اسنادی مانند JSON) برخی از ویژگی های پایگاه
+                                داده های رابطه ای را ترکیب می کند، استفاده آسان و چند پلتفرمی بهترین گزینه برای افزایش
+                                مقیاس و تحمل خطا، متعادل سازی بار، کاهش نقشه و غیره است. </p>
+                            <div class="author-box">
+                                <div class="author-frame">
+                                    <img src="./assets/images/author.png" alt="">
+                                </div>
+                                <div class="information">
+                                    <a href="#">جولیا واکر</a>
+                                    <p>
+                                        21 نوامبر 2024
+                                        <span class="separator"></span>
+                                        <ion-icon class="icon" name="time-outline"></ion-icon>
+                                        6 دقیقه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img class="banner" src="./assets/images/blog-7.png" alt="">
+                        <div class="blog-texts">
+                            <a href="#" class="tag-btn">دسترسی</a>
+                            <h3>
+                                <a href="#">ساختن یک CRUD API آرامش بخش با Node JS، Express و MongoDB</a>
+                            </h3>
+                            <p>این پایگاه داده NoSQL مبتنی بر اسناد (توسط اسنادی مانند JSON) برخی از ویژگی های پایگاه
+                                داده های رابطه ای را ترکیب می کند، استفاده آسان و چند پلتفرمی بهترین گزینه برای افزایش
+                                مقیاس و تحمل خطا، متعادل سازی بار، کاهش نقشه و غیره است. </p>
+                            <div class="author-box">
+                                <div class="author-frame">
+                                    <img src="./assets/images/author.png" alt="">
+                                </div>
+                                <div class="information">
+                                    <a href="#">جولیا واکر</a>
+                                    <p>
+                                        28 اکتبر 2024
+                                        <span class="separator"></span>
+                                        <ion-icon class="icon" name="time-outline"></ion-icon>
+                                        3 دقیقه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img class="banner" src="./assets/images/blog-8.png" alt="">
+                        <div class="blog-texts">
+                            <a href="#" class="tag-btn">عملکرد وب</a>
+                            <h3>
+                                <a href="#">نظارت بر عملکرد با PageSpeed ​​Insights API</a>
+                            </h3>
+                            <p>این پایگاه داده NoSQL مبتنی بر اسناد (توسط اسنادی مانند JSON) برخی از ویژگی های پایگاه
+                                داده های رابطه ای را ترکیب می کند، استفاده آسان و چند پلتفرمی بهترین گزینه برای افزایش
+                                مقیاس و تحمل خطا، متعادل سازی بار، کاهش نقشه و غیره است. </p>
+                            <div class="author-box">
+                                <div class="author-frame">
+                                    <img src="./assets/images/author.png" alt="">
+                                </div>
+                                <div class="information">
+                                    <a href="#">جولیا واکر</a>
+                                    <p>
+                                        9 اکتبر 2024
+                                        <span class="separator"></span>
+                                        <ion-icon class="icon" name="time-outline"></ion-icon>
+                                        5 دقیقه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img class="banner" src="./assets/images/blog-9.png" alt="">
+                        <div class="blog-texts">
+                            <a href="#" class="tag-btn">دسترسی</a>
+                            <h3>
+                                <a href="#">بهترین ابزارهای دسترسی به وب برای توسعه دهندگان در سال 2021</a>
+                            </h3>
+                            <p>این پایگاه داده NoSQL مبتنی بر اسناد (توسط اسنادی مانند JSON) برخی از ویژگی های پایگاه
+                                داده های رابطه ای را ترکیب می کند، استفاده آسان و چند پلتفرمی بهترین گزینه برای افزایش
+                                مقیاس و تحمل خطا، متعادل سازی بار، کاهش نقشه و غیره است. </p>
+                            <div class="author-box">
+                                <div class="author-frame">
+                                    <img src="./assets/images/author.png" alt="">
+                                </div>
+                                <div class="information">
+                                    <a href="#">جولیا واکر</a>
+                                    <p>
+                                        11 سپتامبر 2024
+                                        <span class="separator"></span>
+                                        <ion-icon class="icon" name="time-outline"></ion-icon>
+                                        4 دقیقه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-card">
+                        <img class="banner" src="./assets/images/blog-10.png" alt="">
+                        <div class="blog-texts">
+                            <a href="#" class="tag-btn">پایگاه داده</a>
+                            <h3>
+                                <a href="#">نحوه اتصال React Frontend با NodeJS/Express</a>
+                            </h3>
+                            <p>این پایگاه داده NoSQL مبتنی بر اسناد (توسط اسنادی مانند JSON) برخی از ویژگی های پایگاه
+                                داده های رابطه ای را ترکیب می کند، استفاده آسان و چند پلتفرمی بهترین گزینه برای افزایش
+                                مقیاس و تحمل خطا، متعادل سازی بار، کاهش نقشه و غیره است. </p>
+                            <div class="author-box">
+                                <div class="author-frame">
+                                    <img src="./assets/images/author.png" alt="">
+                                </div>
+                                <div class="information">
+                                    <a href="#">جولیا واکر</a>
+                                    <p>
+                                        3 سپتامبر 2024
+                                        <span class="separator"></span>
+                                        <ion-icon class="icon" name="time-outline"></ion-icon>
+                                        7 دقیقه
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="loadmore-btn">بارگذاری بیشتر</button>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="wrapper">
+                    <a href="#">
+                        <img class="logo-light" src="./assets/images/logo-light.svg" alt="">
+                        <img class="logo-dark" src="./assets/images/logo-dark.svg" alt="">
+                    </a>
+                    <p class="footer-text">در مورد دسترسی به وب، عملکرد وب و مدیریت پایگاه داده بیاموزید.</p>
+                </div>
+                <div class="wrapper">
+                    <p class="footer-title">لینک های سریع</p>
+                    <ul>
+                        <li><a href="#" class="footer-link">با ما تبلیغ کنید</a></li>
+                        <li><a href="#" class="footer-link">درباره ما</a></li>
+                        <li><a href="#" class="footer-link">تماس با ما</a></li>
+                    </ul>
+                </div>
+                <div class="wrapper">
+                    <p class="footer-title">مطالب حقوقی</p>
+                    <ul>
+                        <li><a href="#" class="footer-link">اطلاعیه حفظ حریم خصوصی</a></li>
+                        <li><a href="#" class="footer-link">خط مشی کوکی</a></li>
+                        <li><a href="#" class="footer-link">شرایط استفاده</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copyright">
+                &copy; Copyright 2024
+                <a href="https://github.com/ssohei1">Ssohei1</a>
+            </p>
+        </footer>
+    </div>
+
+    <script src="./script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
